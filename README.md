@@ -204,3 +204,10 @@ Have you found a bug or got an idea for a new feature? Feel free to use the
 ## License
 
 This theme is released under the [GPLv2 license](https://github.com/Vimux/mainroad/blob/master/LICENSE.md).
+
+## Test
+git clone https://github.com/tran62/Mainroad.git
+cd Mainroad
+hugo serve  --config "./exampleSite/config.toml"   --contentDir "./exampleSite"
+
+
