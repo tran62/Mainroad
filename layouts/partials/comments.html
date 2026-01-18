@@ -6,6 +6,6 @@
 {{- end }}
 {{- if and .Site.Config.Services.Disqus.Shortname (index .Params "comments" | default "true") (not $server) }}
 <section class="comments">
-	{{ template "_internal/disqus.html" . }}
+	{{ partial "disqus.html" . }}
 </section>
 {{- end }}
