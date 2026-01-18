@@ -1,5 +1,5 @@
-baseurl = "/"
-title = "Mainroad"
+baseurl = "http://localhost:1313"
+title = "Vimux/Mainroad"
 languageCode = "en-us"
 pagination.pagerSize = "10" # Number of posts per page
 theme = "Mainroad"
